@@ -1,0 +1,40 @@
+Description: The project was developed in C++. 
+It provides a graphical presentation of what is greenhouse effect, how it affects
+the world and how we can prevent it.
+
+** Variables:
+
+1. float cx -> for change in X axis
+2. float cy -> for change in Y axis
+3. float time1 -> time counter for "WHAT IS GREENHOUSE EFFECT" 
+4. float time2 -> time counter for "CAUSES OF GREENHOUSE EFFECT"
+5. float time3 -> time counter for "HOW TO AVOID GREENHOUSE EFFECT"
+
+** Methods / Functions:
+
+1. void print( float x, float y, char *st) -> For printing strings in the window
+2. void drawCross(float x, float y) -> Drawing cross (X) sign
+3. void drawTimber(float x,float y) -> Drawing cut down tree
+4. void drawSmoke(float x,float y) -> Drawing smoke for car and factories
+5. void drawCar(float _angle,float d,float e) -> Drawing car
+6. void drawArrowIncoming(float x,float y,float a,float b,float c) -> Drawing arrow towards the earth
+7. void drawArrowOutgoing(float x,float y,float a,float b,float c) -> Drawing arrow towards the sky
+8. void drawArrowStraight(float x,float y,float a,float b,float c) -> Drawing arrow up - down
+9. void drawArrowDown(float x,float y,float a,float b,float c) -> Drawing arrow down - up
+10. void drawCfc(float x,float y) -> Drawing CFC canister
+11. void drawBrickFieldLeft(float x,float y) -> Drawing brick field 1
+12. void drawBrickFieldRight(float x,float y) -> Drawing brick field 2
+13. void drawTree(float x,float y) -> Drawing full tree
+14. void drawCloud(float x,float y) -> Drawing clouds
+
+** Audio Files:
+
+1. para1.wav -> audio file describing "WHAT IS GREENHOUSE EFFECT" 
+2. para2.wav -> audio file describing "CAUSES OF GREENHOUSE EFFECT"
+3. para3.wav -> audio file describing "HOW TO AVOID GREENHOUSE EFFECT"
+
+
+
+
+
+
